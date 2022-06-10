@@ -1,0 +1,31 @@
+body{
+background: linear-gradient(to right, rgb(165, 234, 165) 40%, rgb(238, 192, 199) 100%);
+}
+
+h1{
+color:rgba(0, 0, 0, 0.757);
+background-color: rgb(198, 244, 229);
+}
+
+p{
+padding: 4px;
+font-size: 23px;
+}
+
+canvas{
+border-width: 3px;
+border-radius: 30px;
+border-style: groove;
+animation-name: light;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes light{
+from{box-shadow: 1px 1px 40px black;}
+to{box-shadow: 1px 1px 40px rgb(255, 255, 255);}
+}
+
+#open_modal{
+float: right;
+}
